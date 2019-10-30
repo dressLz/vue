@@ -13,7 +13,12 @@ export default {
     }
   },
   mounted () {
-    console.log(this.$store.state.app.name)
+    console.log(this.getUser())
+  },
+  methods: {
+    getUser () {
+      return this.$store.state.app.name
+    }
   }
 }
 </script>
