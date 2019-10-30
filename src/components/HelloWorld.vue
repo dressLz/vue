@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>测试ci</h2>
+    <h2>李卓</h2>
     <ul>
       <li>
         <a
@@ -82,13 +82,12 @@
     </ul>
   </div>
 </template>
-
 <script>
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'vue项目架构'
     }
   }
 }
