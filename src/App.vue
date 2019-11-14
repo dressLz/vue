@@ -14,5 +14,6 @@ export default {
 <style>
   *{
     margin: auto;
+    background: red;
   }
 </style>
